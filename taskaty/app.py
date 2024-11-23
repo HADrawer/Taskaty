@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from TaskController import TaskController
+from .TaskController import TaskController
 def main():
     controller = TaskController('tasks.txt')
     
